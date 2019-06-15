@@ -1,0 +1,14 @@
+{
+  "require": {
+    "dompdf/dompdf": "^0.8.2",
+    "twig/twig": "^2.0"
+  },
+  "autoload": {
+    "classmap": [
+      "db/Connection.php",
+      "res/phpqrcode/qrlib.php",
+      "classes/QrCode.php",
+      "ADO/AdoQrcode.php"
+    ]
+  }
+}
